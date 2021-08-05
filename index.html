@@ -4,9 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Photon</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <header>
+      <a class="logo" href="/index.html">Photon</a>
+      <form class="search-form">
+        <input type="text" name="search" class="search-input" />
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </header>
+
+    <main>
+      <div class="gallery"></div>
+    </main>
+    <div class="nav-button">
+      <button class="more">Generate More</button>
+    </div>
+
+    <script src="./app.js"></script>
   </body>
 </html>
